@@ -4,7 +4,8 @@ class Shoe
 BRANDS = ["Uggs", "Rainbow"]
   def initialize(brand)
     @brand = brand
-    BRANDS << brand.has_val
+    if brand 
+    BRANDS << brand
   end
 
   def cobble
